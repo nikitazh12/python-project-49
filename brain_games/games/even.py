@@ -1,5 +1,4 @@
 import random
-from brain_games.engine import run_game
 
 def generate_question_and_answer():
     number = random.randint(1, 100)
