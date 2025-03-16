@@ -21,4 +21,4 @@ def generate_question_and_answer():
 
 
 def get_game_description():
-    return 'What is the result of expression?'
+    return 'What is the result of the expression?'
