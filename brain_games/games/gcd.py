@@ -1,5 +1,6 @@
-import random
 import math
+import random
+
 
 def generate_question_and_answer():
     num1 = random.randint(1, 100)
@@ -9,6 +10,7 @@ def generate_question_and_answer():
     
     question = f'{num1} {num2}'
     return question, correct_answer
+
 
 def get_game_description():
     return 'Find the greatest common divisor of given numbers.'

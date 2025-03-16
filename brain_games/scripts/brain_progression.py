@@ -1,5 +1,5 @@
 from brain_games.engine import run_game
-from brain_games.games.even import (
+from brain_games.games.progression import (
     generate_question_and_answer,
     get_game_description,
 )
