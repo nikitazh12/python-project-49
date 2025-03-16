@@ -6,15 +6,12 @@ def generate_question_and_answer():
     num2 = random.randint(1, 100)
     operation = random.choice(['+', '-', '*'])
     
-    match operation:
-        case '+':
-            correct_answer = str(num1 + num2)
-        case '-':
-            correct_answer = str(num1 - num2)
-        case '*':
-            correct_answer = str(num1 * num2)
-        case _:
-            correct_answer = None
+    if operation == '+':
+        correct_answer = str(num1 + num2)
+    elif operation == '-':
+        correct_answer = str(num1 - num2)
+    elif operation == '*':
+        correct_answer = str(num1 * num2)
     
     question = f'{num1} {operation} {num2}'
     return question, correct_answer

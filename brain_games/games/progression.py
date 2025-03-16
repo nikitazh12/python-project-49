@@ -1,5 +1,6 @@
 import random
 
+
 def generate_question_and_answer():
     start = random.randint(1, 50)  
     step = random.randint(1, 10)   
@@ -14,6 +15,7 @@ def generate_question_and_answer():
     question = ' '.join(progression)
 
     return question, correct_answer
+
 
 def get_game_description():
     return 'What number is missing in the progression?'
